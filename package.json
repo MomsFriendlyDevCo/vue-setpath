@@ -14,5 +14,6 @@
     "vue"
   ],
   "author": "Matt Carter <m@ttcarter.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": false
 }
