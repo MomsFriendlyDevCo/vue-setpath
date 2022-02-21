@@ -1,6 +1,6 @@
 {
   "name": "@momsfriendlydevco/vue-setpath",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sets a dotted notation path via Vue's `$set` function.",
   "main": "index.js",
   "scripts": {
