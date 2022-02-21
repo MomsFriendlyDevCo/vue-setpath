@@ -45,7 +45,7 @@ export default {
 					(_.isString(path) ? path.split('.') : path).some((chunk, chunkIndex, chunks) => {
 						if (chunkIndex == chunks.length - 1) { // Leaf node
 							if (settings.removeUndefined && value === undefined) {
-								this.$unset(node, chunk);
+								this.$delete(node, chunk);
 							} else {
 								this.$set(node, chunk, value);
 							}
